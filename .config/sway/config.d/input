@@ -1,0 +1,18 @@
+# Set keyboard to layout
+input type:keyboard {
+   xkb_layout de
+}
+
+# Enable numlock for main keyboard. Using 'type:keyboard' or '*' fill crash firefox on reload.
+input "1241:41258:HOLTEK_USB-HID_Keyboard" {
+      # xkb_numlock enabled
+}
+
+# Enable touchpad
+input type:touchpad {
+      dwt enabled
+      tap enabled
+}
+
+# Disables auto window selection with mouse
+focus_follows_mouse no

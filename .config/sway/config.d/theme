@@ -1,0 +1,20 @@
+# Gaps
+gaps inner 10
+gaps outer 0
+
+# Border and hide titlebar
+default_border pixel 2
+default_floating_border pixel 2
+
+# Class                 Border              Background         Text                 Indicator
+client.focused          $focused-bg-color   $focused-bg-color  $focused-text-color  $indicator
+client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $indicator
+client.focused_inactive $inactive-bg-color  $focused-bg-color  $inactive-text-color $indicator
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          $indicator
+
+font pango:$font
+
+# Status bar
+bar {
+   swaybar_command waybar
+}

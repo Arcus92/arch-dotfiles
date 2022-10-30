@@ -1,0 +1,21 @@
+{
+	"name": "arcus-theme",
+	"version": "1.0.0",
+	"displayName": "Arcus Theme",
+	"publisher": "arcus",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Arcus",
+				"uiTheme": "vs-dark",
+				"path": "./themes/arcus.json"
+			}
+		]
+	}
+}

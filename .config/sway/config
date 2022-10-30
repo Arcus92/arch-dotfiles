@@ -1,0 +1,19 @@
+set $font                SourceCodePro Medium 11
+set $bg-color            #1c2529
+
+set $focused-bg-color    #1c2529
+set $active-bg-color     #1c2529
+set $inactive-bg-color   #29363c
+set $text-color          #d5d5d5
+set $focused-text-color  #ffffff
+set $inactive-text-color #d5d5d5
+set $urgent-bg-color     #b13636
+
+set $indicator           #c8e690
+set $separator           #1c2529
+
+# Import all files from config.d
+include $HOME/.config/sway/config.d/*
+
+# Import sway defaults
+include /etc/sway/config.d/*

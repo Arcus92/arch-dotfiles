@@ -1,0 +1,40 @@
+#window, #outer-box, #input, #inner-box, #entry {
+    font-family: "Clear Sans", "Font Awesome 5 Free Solid";
+    font-size: 13px;
+    color: #d5d5d5;
+}
+
+#window {
+    background-color: #1c2529;
+    border: solid 1px #29363c;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+#outer-box {
+    margin: 5px;
+}
+
+#input {
+    margin-bottom: 5px;
+    background-color: #29363c;
+    border: none;
+    border-radius: 5px;
+}
+
+#scroll {
+    margin: 0px;
+}
+
+#text {
+    margin: 5px;
+}
+
+#entry {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#entry:selected {
+    background-color: #29363c;
+}

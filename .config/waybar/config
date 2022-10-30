@@ -1,0 +1,153 @@
+[
+    {
+        "name": "topbar",
+        "layer": "top",
+        "position": "top",
+        "height": 30,
+        "margin-top": 10,
+        "margin-left": 10,
+        "margin-right": 10,
+        "modules-left": ["sway/mode", "sway/workspaces", "custom/terminal", "custom/file-manager", "custom/firefox"],
+        "modules-center": ["wlr/taskbar"],
+        "modules-right": ["battery", "disk", "memory", "cpu", "temperature", "pulseaudio", "backlight", "idle_inhibitor","network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "custom/mail", "custom/weather", "clock", "custom/poweroff"],
+        "idle_inhibitor": {
+            "format": "{icon}",
+            "format-icons": {
+                "activated": "",
+                "deactivated": ""
+            }
+        },
+        "clock": {
+            "interval": 1,
+            "format": "{:%Y-%m-%d %H:%M:%S}",
+            "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+        },
+        "cpu": {
+            "format": " {usage}%",
+            "tooltip": false
+        },
+        "disk": {
+            "format": " {}%",
+            "tooltip-format": "{used} / {total} used"
+        },
+        "memory": {
+            "format": " {}%",
+            "tooltip-format": "{used:0.1f}G / {total:0.1f}G used"
+        },
+        "temperature": {
+            "critical-threshold": 80,
+            "format": "{icon} {temperatureC}°C",
+            "format-icons": ["", "", "", "", ""]
+        },
+        "backlight": {
+            "device": "intel_backlight",
+            "interval": 1,
+            "on-scroll-down": "brightlight -pd 1",
+            "on-scroll-up": "brightlight -pi 1",
+            "format": "{icon} {percent}%",
+            "format-icons": ["", ""],
+            "on-click": "wdisplays"
+        },
+        "battery": {
+            "bat": "BAT0",
+            "adapter": "AC",
+            "interval": 10,
+            "full-at": 99,
+            "states": {
+                "full": 100,
+                "good": 99,
+                "empty": 5
+            },
+            "format": "{icon} {capacity}%",
+            "format-charging": " {capacity}%",
+            "format-plugged": " {capacity}%",
+            "format-empty": "",
+            "format-full": "",
+            "format-icons": ["", "", "", "", ""]
+        },
+        "network#disconnected": {
+            "tooltip-format": "No connection!",
+            "format-ethernet": "",
+            "format-wifi": "",
+            "format-linked": "",
+            "format-disconnected": "",
+            "on-click": "nm-connection-editor"
+        },
+        "network#ethernet": {
+            "interface": "enp*",
+            "format-ethernet": "",
+            "format-wifi": "",
+            "format-linked": "",
+            "format-disconnected": "",
+            "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
+            "on-click": "nm-connection-editor"
+        },
+        "network#wifi": {
+            "interface": "wlp*",
+            "format-ethernet": "",
+            "format-wifi": " {essid} ({signalStrength}%)",
+            "format-linked": "",
+            "format-disconnected": "",
+            "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
+            "on-click": "nm-connection-editor"
+        },
+        "network#vpn": {
+            "interface": "tun0",
+            "format": "",
+            "format-disconnected": "",
+            "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
+            "on-click": "nm-connection-editor"
+        },
+        "pulseaudio": {
+            "scroll-step": 1,
+            "format": "{icon} {volume}%{format_source}",
+            "format-bluetooth": "{icon} {volume}%{format_source}",
+            "format-bluetooth-muted": " {icon}{format_source}",
+            "format-muted": " {format_source}",
+            "format-source": "  {volume}%",
+            "format-source-muted": " ",
+            "format-icons": {
+                "headphone": "",
+                "phone": "",
+                "portable": "",
+                "car": "",
+                "default": ["", "", ""]
+            },
+            "on-click": "pavucontrol"
+        },
+        "custom/poweroff": {
+            "tooltip": false,
+            "format": "",
+            "on-click": "bash $HOME/.config/waybar/scripts/poweroff.sh"
+        },
+        "tray": {
+            "icon-size": 13,
+            "spacing": 10
+        },
+        "wlr/taskbar": {
+            "format": "{name}",
+            "icon-size": 20,
+            "tooltip": false,
+            "on-click": "activate",
+            "on-click-right": "close"
+        },
+        "sway/mode": {
+            "format": "<span style=\"italic\">{}</span>"
+        },
+        "custom/file-manager": {
+            "format": "",
+            "tooltip": false,
+            "on-click": "pcmanfm"
+        },
+        "custom/firefox": {
+            "format": "",
+            "tooltip": false,
+            "on-click": "firefox"
+        },
+        "custom/terminal": {
+            "format": "",
+            "tooltip": false,
+            "on-click": "foot"
+        }
+    }
+]

@@ -1,0 +1,39 @@
+{
+    "name": "arcus",
+    "type": "dark",
+    "tokenColors": [
+        {
+            "settings": {
+                "background": "#1c2529",
+                "foreground": "#d5d5d5",
+                "selectionForeground": "#ffffff",
+                "findHighlight": "#c8e690",
+                "findHighlightForeground": "#333333",
+                "selectionBorder": "#ffffff",
+                "bracketsForeground": "#aeb9c4",
+                "bracketsOptions": "underline",
+                "bracketContentsForeground": "#aeb9c4",
+                "bracketContentsOptions": "underline",
+                "tagsOptions": "stippled_underline",
+                "window.titleBarStyle": "custom"
+            }
+        }
+    ],
+    "colors": {
+        "foreground":"#d5d5d5",
+        "editor.background": "#1c2529",
+        "editor.selectionBackground": "#c8e69055",
+        "sideBar.background":"#29363c",
+        "sideBar.foreground":"#d5d5d5",
+        "sideBarSectionHeader.background": "#1c2529",
+        "sideBarSectionHeader.foreground": "#d5d5d5",
+        "activityBar.background":"#1c2529",
+        "activityBar.foreground":"#d5d5d5",
+        "statusBar.background":"#29363c",
+        "statusBar.foreground":"#d5d5d5",
+        "tab.inactiveBackground":"#29363c",
+        "editorGroupHeader.tabsBackground":"#1c2529",
+        "menu.foreground": "#d5d5d5",
+        "menu.background": "#1c2529"
+    }
+}

@@ -1,0 +1,81 @@
+* {
+    font-family: "Clear Sans", "Font Awesome 5 Free Solid";
+    font-size: 13px;
+    color: #d5d5d5;    
+
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    border-radius: 0;
+}
+
+#waybar {
+    background: transparent;
+}
+
+.modules-left, .modules-right {
+    background-color: #1c2529;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.modules-center button {
+    background: #1c2529;
+    opacity: 0.9;
+}
+
+button {
+    background: transparent;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #29363c;
+}
+
+button.active {
+    background-color: #29363c;
+}
+
+button.urgent {
+    background-color: #b13636;
+}
+
+#mode {
+    background-color: #29363c;
+}
+
+#backlight,
+#battery,
+#clock,
+#cpu,
+#disk,
+#idle_inhibitor,
+#memory,
+#mode,
+#network.vpn,
+#network.wifi,
+#network.ethernet,
+#network.disconnected,
+#pulseaudio,
+#taskbar,
+#temperature,
+#tray,
+#custom-poweroff,
+#custom-firefox,
+#custom-terminal,
+#custom-file-manager
+{
+    padding: 0 5px;
+    margin: 0;
+}
+
+#temperature.critical {
+    background-color: #b13636;
+}
+
