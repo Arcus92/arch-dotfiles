@@ -18,3 +18,7 @@ font pango:$font
 bar {
    swaybar_command waybar
 }
+
+# Setup QT theme engine
+exec systemctl --user set-environment QT_QPA_PLATFORMTHEME=qt5ct
+exec systemctl --user set-environment MOZ_ENABLE_WAYLAND=1
