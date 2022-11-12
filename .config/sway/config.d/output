@@ -4,3 +4,7 @@ output "DP-6" scale 1.5
 
 # Defines the background image
 output * bg $HOME/.config/sway/images/{theme_wallpaper_name} fill 
+
+# Set the DISPLAY and WAYLAND_DISPLAY on user level for xorg
+exec systemctl --user import-environment DISPLAY
+exec systemctl --user import-environment WAYLAND_DISPLAY
