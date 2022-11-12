@@ -6,6 +6,7 @@ source "${BASH_SOURCE%/*}/themes/default.sh"
 copy_file_and_replace_variables() {
     sed_regex=""
     variables=( \
+        theme_wallpaper_name \
         theme_color_text \
         theme_color_background_dark \
         theme_color_background_light \
