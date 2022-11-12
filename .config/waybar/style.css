@@ -1,7 +1,7 @@
 * {
     font-family: "Clear Sans", "Font Awesome 5 Free Solid";
     font-size: 13px;
-    color: #d5d5d5;    
+    color: #{theme_color_text};    
 
     min-height: 0;
     margin: 0;
@@ -16,14 +16,14 @@
 }
 
 .modules-left, .modules-right {
-    background-color: #1c2529;
+    background-color: #{theme_color_background_dark};
     opacity: 0.9;
     border-radius: 5px;
     padding: 0 10px;
 }
 
 .modules-center button {
-    background: #1c2529;
+    background: #{theme_color_background_dark};
     opacity: 0.9;
 }
 
@@ -35,19 +35,19 @@ button {
 }
 
 button:hover {
-    background: #29363c;
+    background: #{theme_color_background_light};
 }
 
 button.active {
-    background-color: #29363c;
+    background-color: #{theme_color_background_light};
 }
 
 button.urgent {
-    background-color: #b13636;
+    background-color: #{theme_color_accent_red};
 }
 
 #mode {
-    background-color: #29363c;
+    background-color: #{theme_color_background_light};
 }
 
 #backlight,
@@ -76,6 +76,6 @@ button.urgent {
 }
 
 #temperature.critical {
-    background-color: #b13636;
+    background-color: #{theme_color_accent_red};
 }
 

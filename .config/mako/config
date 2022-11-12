@@ -1,8 +1,8 @@
 sort=-time
 layer=overlay
-text-color=#d5d5d5
-background-color=#1c2529
-progress-color=#c8e690
+text-color=#{theme_color_text}
+background-color=#{theme_color_background_dark}
+progress-color=#{theme_color_accent}
 width=300
 height=110
 border-size=0
@@ -15,7 +15,7 @@ ignore-timeout=1
 font="Clear Sans" 10
 
 [urgency=high]
-background-color=#b13636
+background-color=#{theme_color_accent_red}
 default-timeout=0
 
 [category=mpd]

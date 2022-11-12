@@ -1,12 +1,12 @@
 #window, #outer-box, #input, #inner-box, #entry {
     font-family: "Clear Sans", "Font Awesome 5 Free Solid";
     font-size: 13px;
-    color: #d5d5d5;
+    color: #{theme_color_text};
 }
 
 #window {
-    background-color: #1c2529;
-    border: solid 1px #29363c;
+    background-color: #{theme_color_background_dark};
+    border: solid 1px #{theme_color_background_light};
     opacity: 0.9;
     border-radius: 5px;
 }
@@ -17,7 +17,7 @@
 
 #input {
     margin-bottom: 5px;
-    background-color: #29363c;
+    background-color: #{theme_color_background_light};
     border: none;
     border-radius: 5px;
 }
@@ -36,5 +36,5 @@
 }
 
 #entry:selected {
-    background-color: #29363c;
+    background-color: #{theme_color_background_light};
 }

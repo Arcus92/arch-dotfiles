@@ -1,16 +1,16 @@
 set $font                SourceCodePro Medium 11
-set $bg-color            #1c2529
+set $bg-color            #{theme_color_background_dark}
 
-set $focused-bg-color    #1c2529
-set $active-bg-color     #1c2529
-set $inactive-bg-color   #29363c
-set $text-color          #d5d5d5
+set $focused-bg-color    #{theme_color_background_dark}
+set $active-bg-color     #{theme_color_background_dark}
+set $inactive-bg-color   #{theme_color_background_light}
+set $text-color          #{theme_color_text}
 set $focused-text-color  #ffffff
-set $inactive-text-color #d5d5d5
-set $urgent-bg-color     #b13636
+set $inactive-text-color #{theme_color_text}
+set $urgent-bg-color     #{theme_color_accent_red}
 
-set $indicator           #c8e690
-set $separator           #1c2529
+set $indicator           #{theme_color_accent}
+set $separator           #{theme_color_background_dark}
 
 # Import all files from config.d
 include $HOME/.config/sway/config.d/*

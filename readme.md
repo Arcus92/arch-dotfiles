@@ -95,8 +95,8 @@ sudo pacman -S --needed --noconfirm ranger
 
 | Name | Color | Hex code |
 |------|-------|----------|
-| Text | ![](https://placehold.co/20x20/d5d5d5/d5d5d5.png) | #d5d5d5 |
-| Dark | ![](https://placehold.co/20x20/1c2529/1c2529.png) | #1c2529 |
-| Light | ![](https://placehold.co/20x20/29363c/29363c.png) | #29363c |
-| Accent | ![](https://placehold.co/20x20/c8e690/c8e690.png) | #c8e690 |
-| Red | ![](https://placehold.co/20x20/b13636/b13636.png) | #b13636 |
+| theme_color_text | ![](https://placehold.co/20x20/d5d5d5/d5d5d5.png) | #d5d5d5 |
+| theme_color_background_dark | ![](https://placehold.co/20x20/1c2529/1c2529.png) | #1c2529 |
+| theme_color_background_light | ![](https://placehold.co/20x20/29363c/29363c.png) | #29363c |
+| theme_color_accent | ![](https://placehold.co/20x20/c8e690/c8e690.png) | #c8e690 |
+| theme_color_accent_red | ![](https://placehold.co/20x20/b13636/b13636.png) | #b13636 |

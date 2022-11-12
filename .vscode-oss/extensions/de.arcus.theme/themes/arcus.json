@@ -4,10 +4,10 @@
     "tokenColors": [
         {
             "settings": {
-                "background": "#1c2529",
-                "foreground": "#d5d5d5",
+                "background": "#{theme_color_background_dark}",
+                "foreground": "#{theme_color_text}",
                 "selectionForeground": "#ffffff",
-                "findHighlight": "#c8e690",
+                "findHighlight": "#{theme_color_accent}",
                 "findHighlightForeground": "#333333",
                 "selectionBorder": "#ffffff",
                 "bracketsForeground": "#aeb9c4",
@@ -20,20 +20,20 @@
         }
     ],
     "colors": {
-        "foreground":"#d5d5d5",
-        "editor.background": "#1c2529",
-        "editor.selectionBackground": "#c8e69055",
-        "sideBar.background":"#29363c",
-        "sideBar.foreground":"#d5d5d5",
-        "sideBarSectionHeader.background": "#1c2529",
-        "sideBarSectionHeader.foreground": "#d5d5d5",
-        "activityBar.background":"#1c2529",
-        "activityBar.foreground":"#d5d5d5",
-        "statusBar.background":"#29363c",
-        "statusBar.foreground":"#d5d5d5",
-        "tab.inactiveBackground":"#29363c",
-        "editorGroupHeader.tabsBackground":"#1c2529",
-        "menu.foreground": "#d5d5d5",
-        "menu.background": "#1c2529"
+        "foreground":"#{theme_color_text}",
+        "editor.background": "#{theme_color_background_dark}",
+        "editor.selectionBackground": "#{theme_color_accent}55",
+        "sideBar.background":"#{theme_color_background_light}",
+        "sideBar.foreground":"#{theme_color_text}",
+        "sideBarSectionHeader.background": "#{theme_color_background_dark}",
+        "sideBarSectionHeader.foreground": "#{theme_color_text}",
+        "activityBar.background":"#{theme_color_background_dark}",
+        "activityBar.foreground":"#{theme_color_text}",
+        "statusBar.background":"#{theme_color_background_light}",
+        "statusBar.foreground":"#{theme_color_text}",
+        "tab.inactiveBackground":"#{theme_color_background_light}",
+        "editorGroupHeader.tabsBackground":"#{theme_color_background_dark}",
+        "menu.foreground": "#{theme_color_text}",
+        "menu.background": "#{theme_color_background_dark}"
     }
 }
