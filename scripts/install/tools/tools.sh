@@ -19,6 +19,9 @@ sudo pacman -S --needed --noconfirm jdk-openjdk
 # Install ffmpeg
 sudo pacman -S --needed --noconfirm ffmpeg
 
+# Install htop
+sudo pacman -S --needed --noconfirm htop
+
 # Install tools for screenshots (grim: screenshotter, slurp: area selector, wl-clipboard: clipboard tool)
 sudo pacman -S --needed --noconfirm grim slurp wl-clipboard
 
