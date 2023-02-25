@@ -142,7 +142,7 @@
         "custom/file-manager": {
             "format": "",
             "tooltip": false,
-            "on-click": "pcmanfm"
+            "on-click": "nemo"
         },
         "custom/firefox": {
             "format": "",

@@ -13,7 +13,7 @@ set $term foot
 set $menu wofi | xargs swaymsg exec
 
 # File manager
-set $file-manager pcmanfm
+set $file-manager nemo
 
 # Screenshot area selector
 set $screenshot grim -g "$(slurp -b \\$bg-color40 -c \\$indicatorff -s \\$inactive-bg-color80 -w 2)" - | wl-copy
