@@ -76,11 +76,12 @@ sudo pacman -S --needed --noconfirm ranger
 | Application lanucher | **META + D** |
 | Terminal | **META + Return** |
 | File manager | **META + Y** *(custom)* |
+| Screenshot | **META + Shift + S** |
 | Reload config | **META + Shift + C** |
 | Toggle fullscreen | **META + F** |
-| Quit application | **META + Shift + Q** |
-| Move to scratchpad / minimize | **META + Shift + -** |
-| Switch through scratchpad | **META + -** |
+| Quit application | **META + Q** |
+| Move to scratchpad / minimize | **META + -** |
+| Switch through scratchpad | **META + Shift + -** |
 | Toggle floating window | **META + Shift + Space** |
 | Switch to stagging layout | **META + Shift + S** |
 | Switch to tabbed layout | **META + Shift + W** |

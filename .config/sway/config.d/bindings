@@ -26,7 +26,7 @@ set $screenshot grim -g "$(slurp -b \\$bg-color40 -c \\$indicatorff -s \\$inacti
 bindsym $mod+Return exec $term
 
 # Kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
 # Start your launcher
 bindsym $mod+d exec $menu
@@ -132,11 +132,11 @@ bindsym $mod+a focus parent
 # You can send windows there and get them back later.
 
 # Move the currently focused window to the scratchpad
-bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus move scratchpad
 
 # Show the next scratchpad window or hide the focused scratchpad window.
 # If there are multiple scratchpad windows, this command cycles through them.
-bindsym $mod+minus scratchpad show
+bindsym $mod+Shift+minus scratchpad show
 #
 # Resizing containers:
 #
