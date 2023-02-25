@@ -3,3 +3,6 @@
 # Add transparency to VSCode
 for_window [class="code-oss"] opacity 0.9
 for_window [class="Pcmanfm"] opacity 0.9
+
+# Floating windows
+for_window [app_id="pavucontrol"] floating enable
