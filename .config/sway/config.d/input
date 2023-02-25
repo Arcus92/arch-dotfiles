@@ -5,7 +5,7 @@ input type:keyboard {
 
 # Enable numlock for main keyboard. Using 'type:keyboard' or '*' fill crash firefox on reload.
 input "1241:41258:HOLTEK_USB-HID_Keyboard" {
-      # xkb_numlock enabled
+      xkb_numlock enabled
 }
 
 # Enable touchpad
