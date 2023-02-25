@@ -1,5 +1,5 @@
 * {
-    font-family: "Clear Sans", "Font Awesome 5 Free Solid";
+    font-family: "{theme_font}", "Font Awesome 5 Free";
     font-size: 13px;
     color: #{theme_color_text};    
 
@@ -19,7 +19,7 @@
     background-color: #{theme_color_background_dark};
     opacity: 0.9;
     border-radius: 5px;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 .modules-center button {
@@ -50,6 +50,10 @@ button.urgent {
 
 #mode {
     background-color: #{theme_color_background_light};
+}
+
+#workspaces button {
+    border: solid 1px #{theme_color_text};
 }
 
 #backlight,

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export theme_font="Noto Sans"
+
 export theme_wallpaper_name=wallpaper.jpg
 export theme_color_text=d5d5d5
 export theme_color_background_dark=1c2529

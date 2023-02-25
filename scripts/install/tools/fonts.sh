@@ -4,4 +4,4 @@
 sudo pacman -S --needed --noconfirm ttf-font-awesome
 
 # Install Googles Emoji font
-sudo pacman -S --needed --noconfirm noto-fonts-emoji 
+sudo pacman -S --needed --noconfirm noto-fonts noto-fonts-emoji 

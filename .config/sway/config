@@ -1,4 +1,4 @@
-set $font                SourceCodePro Medium 11
+set $font                {theme_font} Medium 11
 set $bg-color            #{theme_color_background_dark}
 
 set $focused-bg-color    #{theme_color_background_dark}
