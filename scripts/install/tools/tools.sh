@@ -25,4 +25,5 @@ sudo pacman -S --needed --noconfirm htop
 # Install tools for screenshots (grim: screenshotter, slurp: area selector, wl-clipboard: clipboard tool)
 sudo pacman -S --needed --noconfirm grim slurp wl-clipboard
 
-
+# Install wine
+sudo pacman -S --needed --noconfirm wine
