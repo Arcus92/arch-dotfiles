@@ -7,9 +7,9 @@
         "margin-top": 10,
         "margin-left": 10,
         "margin-right": 10,
-        "modules-left": ["sway/mode", "sway/workspaces", "custom/terminal", "custom/file-manager", "custom/firefox"],
+        "modules-left": ["sway/mode", "sway/workspaces", "custom/menu", "custom/terminal", "custom/file-manager", "custom/firefox"],
         "modules-center": ["wlr/taskbar"],
-        "modules-right": ["battery", "disk", "memory", "cpu", "temperature", "pulseaudio", "backlight", "idle_inhibitor","network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "custom/mail", "custom/weather", "clock", "custom/poweroff"],
+        "modules-right": ["tray", "battery", "disk", "memory", "cpu", "temperature", "pulseaudio", "backlight", "idle_inhibitor","network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "custom/mail", "custom/weather", "clock", "custom/poweroff"],
         "idle_inhibitor": {
             "format": "{icon}",
             "format-icons": {
@@ -121,11 +121,11 @@
             "on-click": "bash $HOME/.config/waybar/scripts/poweroff.sh"
         },
         "tray": {
-            "icon-size": 13,
+            "icon-size": 16,
             "spacing": 10
         },
         "wlr/taskbar": {
-            "format": "{name}",
+            "format": "{icon} {name}",
             "icon-size": 20,
             "tooltip": false,
             "on-click": "activate",
@@ -133,6 +133,11 @@
         },
         "sway/mode": {
             "format": "<span style=\"italic\">{}</span>"
+        },
+        "custom/menu": {
+            "format": "",
+            "tooltip": false,
+            "on-click": "wofi"
         },
         "custom/file-manager": {
             "format": "",
