@@ -11,7 +11,10 @@ copy_file_and_replace_variables() {
         theme_color_background_dark \
         theme_color_background_light \
         theme_color_accent \
+        theme_color_accent_light \
+        theme_color_accent_dark \
         theme_color_accent_red \
+        theme_color_accent_text \
         theme_gtk_name \
         theme_gtk_icons \
         theme_gtk_cursors \
