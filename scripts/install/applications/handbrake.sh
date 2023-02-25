@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Install Handbreak (media converter)
-sudo pacman -S --needed --noconfirm handbreak
+sudo pacman -S --needed --noconfirm handbrake
