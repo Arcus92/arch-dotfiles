@@ -12,6 +12,9 @@ copy_file_and_replace_variables() {
         theme_color_background_light \
         theme_color_accent \
         theme_color_accent_red \
+        theme_gtk_name \
+        theme_gtk_icons \
+        theme_gtk_cursors \
         )
 
     
@@ -43,3 +46,9 @@ copy_folder_and_replace_variables ${BASH_SOURCE%/*}/../.config $HOME
 
 # Copy vscode theme to user directory
 copy_folder_and_replace_variables ${BASH_SOURCE%/*}/../.vscode-oss $HOME
+
+# Apply GTK theme
+gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
+gsettings set org.gnome.desktop.interface gtk-theme "${theme_gtk_name}"
+gsettings set org.gnome.desktop.interface icon-theme "${theme_gtk_icons}"
+gsettings set org.gnome.desktop.interface cursor-theme "${theme_gtk_cursors}"

@@ -6,3 +6,7 @@ export theme_color_background_dark=1c2529
 export theme_color_background_light=29363c
 export theme_color_accent=c8e690
 export theme_color_accent_red=b13636
+
+export theme_gtk_name=Breeze-Dark
+export theme_gtk_icons=breeze-dark
+export theme_gtk_cursors=breeze_cursors
