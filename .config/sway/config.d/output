@@ -1,6 +1,6 @@
 # Activate fractional scaling (HiDPI)
-output "HDMI-A-2" scale 1.5
-output "DP-6" scale 1.5
+output "HDMI-A-1" scale 1.5
+output "DP-3" scale 1.5
 
 # Defines the background image
 output * bg $HOME/.config/sway/images/{theme_wallpaper_name} fill 
