@@ -10,5 +10,5 @@ export theme_color_accent=c8e690
 export theme_color_accent_red=b13636
 
 export theme_gtk_name=Breeze-Dark
-export theme_gtk_icons=breeze-dark
+export theme_gtk_icons=Flatery-Mint-Dark
 export theme_gtk_cursors=breeze_cursors
