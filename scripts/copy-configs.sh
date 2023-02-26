@@ -7,6 +7,7 @@ copy_file_and_replace_variables() {
     sed_regex=""
     variables=( \
         theme_wallpaper_name \
+        theme_font \
         theme_color_text \
         theme_color_background_dark \
         theme_color_background_light \
