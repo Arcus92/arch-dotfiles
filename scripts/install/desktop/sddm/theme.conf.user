@@ -1,0 +1,13 @@
+AccentColor="#{theme_color_accent}"
+Background="{theme_wallpaper_name}"
+BackgroundColor="#{theme_color_background_dark}"
+MainColor="#{theme_color_text}"
+
+ForceHideCompletePassword="true"
+
+Font="{theme_font}"
+FontSize="12"
+HourFormat="HH:mm"
+DateFormat="dddd d. MMMM yyyy"
+
+HeaderText=" "
