@@ -76,10 +76,6 @@ button.urgent {
     border: solid 1px #{theme_color_text};
 }
 
-#custom-notification .new {
-    color: blue;
-}
-
 #backlight,
 #battery,
 #clock,
