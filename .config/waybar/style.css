@@ -15,6 +15,11 @@
     background: transparent;
 }
 
+#taskbar button.active {
+    background-color: #{theme_color_background_light};
+    color: #{theme_color_accent};
+}
+
 .modules-left, .modules-right {
     background-color: #{theme_color_background_dark};
     opacity: 0.9;

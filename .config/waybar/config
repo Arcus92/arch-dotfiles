@@ -19,7 +19,7 @@
         },
         "clock": {
             "interval": 1,
-            "format": "{:%Y-%m-%d %H:%M:%S}",
+            "format": "{:%Y-%m-%d <b>%H:%M</b>}",
             "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
         },
         "cpu": {
@@ -129,7 +129,8 @@
             "icon-size": 20,
             "tooltip": false,
             "on-click": "activate",
-            "on-click-right": "close"
+            "on-click-middle": "close",
+            "on-click-right": "minimize-raise"
         },
         "sway/mode": {
             "format": "<span style=\"italic\">{}</span>"
