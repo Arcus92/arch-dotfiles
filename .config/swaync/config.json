@@ -43,6 +43,7 @@
       }
     },
     "widgets": [
+      "volume",
       "mpris",
       "inhibitors",
       "title",
@@ -64,8 +65,8 @@
         "text": "Nicht stören"
       },
       "mpris": {
-        "image-size": 96,
-        "image-radius": 12
+        "image-size": 64,
+        "image-radius": 5
       }
     }
 }

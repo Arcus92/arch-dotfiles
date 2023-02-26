@@ -19,12 +19,15 @@
 
 .notification-row:focus,
 .notification-row:hover {
-  background: @noti-bg-focus;
+  background: #{theme_color_background_dark};
 }
 
 .notification {
-  border-radius: 10px;
-  margin: 5px 10px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+  background: #{theme_color_background_light};
+  margin: 5px 5px;
   padding: 0;
 }
 
@@ -50,8 +53,8 @@
 
 .notification-content {
   background: transparent;
-  padding: 6px;
-  border-radius: 12px;
+  border: none;
+  padding: 5px;
 }
 
 .close-button {
@@ -80,19 +83,14 @@
   padding: 4px;
   margin: 0;
   box-shadow: none;
-  background: #{theme_color_background_dark};
-  border: 1px solid @noti-border-color;
+  background: transparent;
+  border: none;
   color: white;
 }
 
 .notification-default-action:hover,
 .notification-action:hover {
   -gtk-icon-effect: none;
-  background: #{theme_color_background_light};
-}
-
-.notification-default-action {
-  border-radius: 12px;
 }
 
 /* When alternative actions are visible */
@@ -109,11 +107,11 @@
 
 /* add bottom border radius to eliminate clipping */
 .notification-action:first-child {
-  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 5px;
 }
 
 .notification-action:last-child {
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 5px;
   border-right: 1px solid @noti-border-color;
 }
 
@@ -121,9 +119,9 @@
 }
 
 .body-image {
-  margin-top: 6px;
+  margin-top: 5px;
   background-color: white;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
 .summary {
@@ -152,7 +150,8 @@
 }
 
 .control-center {
-  background: @cc-bg;
+  background: alpha(#{theme_color_background_dark}, 0.9);
+  border-radius: 5px;
 }
 
 .control-center-list {
@@ -169,7 +168,7 @@
 
 /* Window behind control center and on all other monitors */
 .blank-window {
-  background: alpha(black, 0.25);
+  background: transparent;
 }
 
 /*** Widgets ***/
@@ -199,17 +198,16 @@
 }
 .widget-dnd > switch {
   font-size: initial;
-  border-radius: 12px;
+  border-radius: 5px;
   background: @noti-bg;
-  border: 1px solid @noti-border-color;
   box-shadow: none;
 }
 .widget-dnd > switch:checked {
-  background: @bg-selected;
+  background: #{theme_color_accent};
 }
 .widget-dnd > switch slider {
-  background: @noti-bg-hover;
-  border-radius: 12px;
+  background: #{theme_color_background_dark};
+  border-radius: 5px;
 }
 
 /* Label widget */
@@ -222,11 +220,13 @@
 
 /* Mpris widget */
 .widget-mpris {
-  /* The parent to all players */
+  background-color: #{theme_color_background_light};
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
 }
 .widget-mpris-player {
-  padding: 8px;
-  margin: 8px;
+  
 }
 .widget-mpris-title {
   font-weight: bold;
@@ -259,22 +259,6 @@
   background: transparent;
 }
 
-/* .AnyName { Name defined in config after #
-  background-color: @noti-bg;
-  padding: 8px;
-  margin: 8px;
-  border-radius: 12px;
-}
-
-.AnyName>button {
-  background: transparent;
-  border: none;
-}
-
-.AnyName>button:hover {
-  background-color: @noti-bg-hover;
-} */
-
 .topbar-buttons>button { /* Name defined in config after # */
   border: none;
   background: transparent;
@@ -283,18 +267,18 @@
 /* Volume widget */
 
 .widget-volume {
-  background-color: @noti-bg;
-  padding: 8px;
-  margin: 8px;
-  border-radius: 12px;
+  background-color: #{theme_color_background_light};
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 /* Backlight widget */
 .widget-backlight {
-  background-color: @noti-bg;
-  padding: 8px;
-  margin: 8px;
-  border-radius: 12px;
+  background-color: #{theme_color_background_light};
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 /* Title widget */
@@ -304,13 +288,12 @@
 }
 .widget-inhibitors > button {
   font-size: initial;
-  color: white;
+  color: #{theme_color_accent_text};
   text-shadow: none;
-  background: @noti-bg;
-  border: 1px solid @noti-border-color;
+  background: #{theme_color_background_light};
   box-shadow: none;
-  border-radius: 12px;
+  border-radius: 5px;
 }
 .widget-inhibitors > button:hover {
-  background: @noti-bg-hover;
+  background: #{theme_color_background_dark};
 }
