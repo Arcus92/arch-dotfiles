@@ -1,2 +1,2 @@
 # Start notification service
-exec mako
+exec swaync

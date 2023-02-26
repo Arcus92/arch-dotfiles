@@ -9,7 +9,7 @@
         "margin-right": 10,
         "modules-left": ["sway/mode", "sway/workspaces", "custom/menu", "custom/terminal", "custom/file-manager", "custom/firefox"],
         "modules-center": ["wlr/taskbar"],
-        "modules-right": ["tray", "battery", "disk", "memory", "cpu", "temperature", "pulseaudio", "backlight", "idle_inhibitor","network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "custom/mail", "custom/weather", "clock", "custom/poweroff"],
+        "modules-right": ["custom/notification", "tray", "battery", "disk", "memory", "cpu", "temperature", "pulseaudio", "backlight", "idle_inhibitor","network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "custom/mail", "custom/weather", "clock", "custom/poweroff"],
         "idle_inhibitor": {
             "format": "{icon}",
             "format-icons": {
@@ -154,6 +154,26 @@
             "format": "",
             "tooltip": false,
             "on-click": "foot"
+        },
+        "custom/notification": {
+            "tooltip": false,
+            "format": "{icon}",
+            "format-icons": {
+                "notification": "<span foreground='#{theme_color_accent_red}'><sup></sup></span>",
+                "none": "",
+                "dnd-notification": "<span foreground='#{theme_color_accent_red}'><sup></sup></span>",
+                "dnd-none": "",
+                "inhibited-notification": "<span foreground='#{theme_color_accent_red}'><sup></sup></span>",
+                "inhibited-none": "",
+                "dnd-inhibited-notification": "<span foreground='#{theme_color_accent_red}'><sup></sup></span>",
+                "dnd-inhibited-none": ""
+            },
+            "return-type": "json",
+            "exec-if": "which swaync-client",
+            "exec": "swaync-client -swb",
+            "on-click": "swaync-client -t -sw",
+            "on-click-right": "swaync-client -d -sw",
+            "escape": true
         }
     }
 ]

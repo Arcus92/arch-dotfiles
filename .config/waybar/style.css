@@ -76,6 +76,10 @@ button.urgent {
     border: solid 1px #{theme_color_text};
 }
 
+#custom-notification .new {
+    color: blue;
+}
+
 #backlight,
 #battery,
 #clock,
@@ -96,7 +100,8 @@ button.urgent {
 #custom-menu,
 #custom-firefox,
 #custom-terminal,
-#custom-file-manager
+#custom-file-manager,
+#custom-notification
 {
     padding: 0 5px;
     margin: 0;
