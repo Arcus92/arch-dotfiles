@@ -121,7 +121,7 @@
             "on-click": "bash $HOME/.config/waybar/scripts/poweroff.sh"
         },
         "tray": {
-            "icon-size": 16,
+            "icon-size": 20,
             "spacing": 10
         },
         "wlr/taskbar": {
