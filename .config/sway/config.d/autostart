@@ -1,2 +1,5 @@
 # Start notification service
 exec swaync
+
+# Start Enpass
+exec enpass -minimize
