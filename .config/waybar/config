@@ -19,7 +19,7 @@
         },
         "clock": {
             "interval": 1,
-            "format": "{:%Y-%m-%d <b>%H:%M</b>}",
+            "format": "{:<b>%Y-%m-%d - %H:%M:%S</b>}",
             "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
         },
         "cpu": {

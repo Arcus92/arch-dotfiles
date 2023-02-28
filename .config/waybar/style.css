@@ -103,6 +103,22 @@ button.urgent {
     margin: 0;
 }
 
+#custom-poweroff:hover,
+#custom-menu:hover,
+#custom-firefox:hover,
+#custom-terminal:hover,
+#custom-file-manager:hover,
+#custom-notification:hover {
+    background-color: #{theme_color_background_light};
+}
+
+#clock,
+#custom-menu {
+    background-color: #{theme_color_background_light};
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
 #temperature.critical {
     background-color: #{theme_color_accent_red};
 }
