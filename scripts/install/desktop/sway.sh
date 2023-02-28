@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install Sway
-sudo pacman -S --needed --noconfirm sway swaybg
+sudo pacman -S --needed --noconfirm sway swaybg swayidle swaylock
 
 # Modifies the Sway start to load environment variables.
 # Environment variables set in ~/.profile are ignored in Sway.

@@ -7,3 +7,6 @@ for_window [app_id="nemo"] opacity 0.9
 
 # Floating windows
 for_window [app_id="pavucontrol"] floating enable
+
+# Prevent idle state when any app is in fullscreen mode
+for_window [shell=".*"] inhibit_idle fullscreen
