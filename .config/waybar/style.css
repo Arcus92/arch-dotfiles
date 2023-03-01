@@ -121,6 +121,10 @@ button.urgent {
     color: #7289da;
 }
 
+#custom-poweroff {
+    color: #{theme_color_accent_red};
+}
+
 #clock,
 #custom-menu {
     background-color: #{theme_color_background_light};
