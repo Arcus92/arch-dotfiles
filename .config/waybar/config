@@ -7,7 +7,7 @@
         "margin-top": 10,
         "margin-left": 10,
         "margin-right": 10,
-        "modules-left": ["sway/mode", "sway/workspaces", "custom/menu", "custom/terminal", "custom/file-manager", "custom/firefox"],
+        "modules-left": ["sway/mode", "sway/workspaces", "custom/menu", "custom/terminal", "custom/file-manager", "custom/firefox", "custom/discord", "custom/steam"],
         "modules-center": ["wlr/taskbar"],
         "modules-right": ["custom/notification", "tray", "battery", "disk", "memory", "cpu", "temperature", "pulseaudio", "backlight", "idle_inhibitor","network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "custom/mail", "custom/weather", "clock", "custom/poweroff"],
         "idle_inhibitor": {
@@ -154,6 +154,16 @@
             "format": "",
             "tooltip": false,
             "on-click": "foot"
+        },
+        "custom/discord": {
+            "format": "",
+            "tooltip": false,
+            "on-click": "discord"
+        },
+        "custom/steam": {
+            "format": "",
+            "tooltip": false,
+            "on-click": "flatpak run com.valvesoftware.Steam"
         },
         "custom/notification": {
             "tooltip": false,

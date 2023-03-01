@@ -97,19 +97,28 @@ button.urgent {
 #custom-firefox,
 #custom-terminal,
 #custom-file-manager,
+#custom-discord,
+#custom-steam,
 #custom-notification
 {
     padding: 0 5px;
     margin: 0;
 }
 
-#custom-poweroff:hover,
-#custom-menu:hover,
-#custom-firefox:hover,
-#custom-terminal:hover,
-#custom-file-manager:hover,
-#custom-notification:hover {
-    background-color: #{theme_color_background_light};
+#custom-terminal {
+    color: #8cbb34;
+}
+
+#custom-file-manager {
+    color: #c8c571;
+}
+
+#custom-firefox {
+    color: #d65126;
+}
+
+#custom-discord {
+    color: #7289da;
 }
 
 #clock,
