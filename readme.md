@@ -42,7 +42,7 @@ The AUR of some application can break randomly. If an optional scripts fails you
 
 This setup using a dynamic theming engine. Thats a fancy way to say that there is a bodge script that replaces color and theme variables for all config files.
 
-The colors are defined in `./scripts/themes/`. The script that copies copies the config files and applies the theme is `./scripts/copy-configs.sh'. You can run this anytime after the installation when you changed the theme. Just reload sway afterwards using **META + Shift + C**.
+The colors are defined in `./scripts/themes/`. The script that copies copies the config files and applies the theme is `./scripts/copy-configs.sh`. You can run this anytime after the installation when you changed the theme. Just reload sway afterwards using **META + Shift + C**.
 
 # Shortcuts
 
