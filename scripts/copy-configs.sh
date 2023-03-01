@@ -46,15 +46,16 @@ rm -rf $HOME/.config/mako
 rm -rf $HOME/.config/bash-scripts
 
 # Copy configs to user directory
-copy_folder_and_replace_variables ${BASH_SOURCE%/*}/../.config $HOME
+copy_folder_and_replace_variables ${BASH_SOURCE%/*}/../data/.config $HOME
 
 # Copy vscode theme to user directory
-copy_folder_and_replace_variables ${BASH_SOURCE%/*}/../.vscode-oss $HOME
+copy_folder_and_replace_variables ${BASH_SOURCE%/*}/../data/.vscode-oss $HOME
 
 # Copy SDDM theme overwrite 
 copy_file_and_replace_variables "${BASH_SOURCE%/*}/install/desktop/sddm/theme.conf.user" "/tmp/theme.conf.user"
 sudo cp -f "/tmp/theme.conf.user" "/usr/share/sddm/themes/sugar-candy"
-sudo cp -f "${BASH_SOURCE%/*}/../.config/sway/images/$theme_wallpaper_name" "/usr/share/sddm/themes/sugar-candy/"
+sudo mkdir -p "/usr/share/wallpapers/arcus/"
+sudo cp -f "${BASH_SOURCE%/*}/../data/wallpapers/$theme_wallpaper_name" "/usr/share/wallpapers/arcus/"
 rm -f "/tmp/theme.conf.user"
 
 # Apply GTK theme

@@ -16,4 +16,4 @@ fi
 
 # Copy the SDDM settings
 sudo mkdir -p "/etc/sddm.conf.d"
-sudo cp -f "${BASH_SOURCE%/*}/sddm/theme.conf" "/etc/sddm.conf.d/"
+sudo cp -f "${BASH_SOURCE%/*}/../../../data/sddm/theme.conf" "/etc/sddm.conf.d/"
