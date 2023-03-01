@@ -117,3 +117,7 @@ The colors are defined in `./scripts/themes/`. The script that copies copies the
 - [htop](https://github.com/htop-dev/htop)
 - [tty-clock](https://github.com/xorg62/tty-clock)
 - [cbonsai](https://gitlab.com/jallbrit/cbonsai)
+
+# Credits
+
+Wallpaper by [Campo Santo](https://www.camposanto.com/) from the game [Firewatch](http://www.firewatchgame.com/).
