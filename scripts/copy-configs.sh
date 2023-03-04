@@ -52,7 +52,7 @@ copy_folder_and_replace_variables ${BASH_SOURCE%/*}/../data/.config $HOME
 copy_folder_and_replace_variables ${BASH_SOURCE%/*}/../data/.vscode-oss $HOME
 
 # Copy SDDM theme overwrite 
-copy_file_and_replace_variables "${BASH_SOURCE%/*}/install/desktop/sddm/theme.conf.user" "/tmp/theme.conf.user"
+copy_file_and_replace_variables "${BASH_SOURCE%/*}/../data/sddm/theme.conf.user" "/tmp/theme.conf.user"
 sudo cp -f "/tmp/theme.conf.user" "/usr/share/sddm/themes/sugar-candy"
 sudo mkdir -p "/usr/share/wallpapers/arcus/"
 sudo cp -f "${BASH_SOURCE%/*}/../data/wallpapers/$theme_wallpaper_name" "/usr/share/wallpapers/arcus/"
