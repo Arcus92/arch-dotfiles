@@ -9,7 +9,7 @@
         "margin-right": 10,
         "modules-left": ["sway/mode", "sway/workspaces", "custom/menu", "custom/terminal", "custom/file-manager", "custom/firefox", "custom/discord", "custom/steam"],
         "modules-center": ["wlr/taskbar"],
-        "modules-right": ["custom/notification", "tray", "battery", "disk", "memory", "cpu", "temperature", "pulseaudio", "backlight", "idle_inhibitor","network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "custom/mail", "custom/weather", "clock", "custom/poweroff"],
+        "modules-right": ["custom/notification", "tray", "battery", "disk", "memory", "cpu", "temperature", "pulseaudio", "custom/headset", "backlight", "idle_inhibitor","network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "custom/mail", "custom/weather", "clock", "custom/poweroff"],
         "idle_inhibitor": {
             "format": "{icon}",
             "format-icons": {
@@ -184,6 +184,15 @@
             "on-click": "swaync-client -t -sw",
             "on-click-right": "swaync-client -d -sw",
             "escape": true
+        },
+        "custom/headset": {
+            "tooltip": false,
+            "on-click": "bash ${HOME}/.config/waybar/scripts/toggle-audio.sh",
+            "exec": "bash ${HOME}/.config/waybar/scripts/get-audio.sh",
+            "exec-on-event": true,
+            "format": "",
+            "interval": "once",
+            "return-type": "json"
         }
     }
 ]

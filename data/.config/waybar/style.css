@@ -99,7 +99,8 @@ button.urgent {
 #custom-file-manager,
 #custom-discord,
 #custom-steam,
-#custom-notification
+#custom-notification,
+#custom-headset
 {
     padding: 0 5px;
     margin: 0;
@@ -123,6 +124,10 @@ button.urgent {
 
 #custom-poweroff {
     color: #{theme_color_accent_red};
+}
+
+#custom-headset.headset {
+    color: #{theme_color_accent};   
 }
 
 #clock,
