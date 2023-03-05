@@ -191,7 +191,7 @@
             "exec": "bash ${HOME}/.config/waybar/scripts/get-audio.sh",
             "exec-on-event": true,
             "format": "",
-            "interval": "once",
+            "interval": 10,
             "return-type": "json"
         }
     }
