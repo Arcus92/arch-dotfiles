@@ -9,4 +9,4 @@ sudo pacman -S --needed --noconfirm sway swaybg swayidle swaylock
 
 sudo cp -f "${BASH_SOURCE%/*}/../../../data/sway/sway-start.sh" "/usr/bin/sway-start.sh"
 sudo chmod +x /usr/bin/sway-start.sh
-sudo cp -f "${BASH_SOURCE%/*}/../../../data/sway/sway.desktop" "/usr/share/wayland-sessions/sway.desktop"
+sudo cp -f "${BASH_SOURCE%/*}/../../../data/sway/sway-custom.desktop" "/usr/share/wayland-sessions/sway-custom.desktop"
