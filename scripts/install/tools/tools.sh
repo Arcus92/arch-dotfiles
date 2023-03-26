@@ -19,6 +19,9 @@ sudo pacman -S --needed --noconfirm jdk-openjdk
 # Install ffmpeg
 sudo pacman -S --needed --noconfirm ffmpeg
 
+# Install ffmpeg-thumbnailer (for video thumbnails in Nemo)
+sudo pacman -S --needed --noconfirm ffmpegthumbnailer
+
 # Install htop
 sudo pacman -S --needed --noconfirm htop
 
