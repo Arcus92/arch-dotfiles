@@ -8,7 +8,7 @@
         "margin-left": 10,
         "margin-right": 10,
         "modules-left": ["sway/mode", "sway/workspaces", "custom/menu", "custom/terminal", "custom/file-manager", "custom/firefox", "custom/discord", "custom/steam"],
-        "modules-center": ["wlr/taskbar"],
+        "modules-center": ["custom/close", "custom/minimize", "custom/maximize", "wlr/taskbar"],
         "modules-right": ["custom/notification", "tray", "battery", "disk", "memory", "cpu", "temperature", "pulseaudio", "custom/headset", "backlight", "idle_inhibitor","network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "custom/mail", "custom/weather", "clock", "custom/poweroff"],
         "idle_inhibitor": {
             "format": "{icon}",
@@ -193,6 +193,21 @@
             "format": "",
             "interval": 10,
             "return-type": "json"
+        },
+        "custom/close": {
+            "format": "",
+            "tooltip": false,
+            "on-click": "swaymsg kill"
+        }, 
+        "custom/minimize": {
+            "format": "",
+            "tooltip": false,
+            "on-click": "swaymsg move scratchpad"
+        }, 
+        "custom/maximize": {
+            "format": "",
+            "tooltip": false,
+            "on-click": "swaymsg floating toggle"
         }
     }
 ]

@@ -141,3 +141,29 @@ button.urgent {
     background-color: #{theme_color_accent_red};
 }
 
+#custom-close, 
+#custom-minimize,
+#custom-maximize {
+    background-color: #{theme_color_background_dark};
+    opacity: 0.9;
+    padding: 0 5px;
+    margin: 5px 0;
+}
+
+#custom-close {
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #d65126;
+}
+
+#custom-minimize {
+    color: #c8c571;
+}
+
+#custom-maximize {
+    padding-right: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #8cbb34;
+}
