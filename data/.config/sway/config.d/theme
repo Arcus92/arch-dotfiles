@@ -18,3 +18,10 @@ font pango:$font
 bar {
    swaybar_command waybar
 }
+
+blur enable
+
+shadows enable
+shadow_blur_radius 20
+shadow_color #000000AF
+corner_radius 5

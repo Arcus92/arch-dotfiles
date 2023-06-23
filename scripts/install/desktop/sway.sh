@@ -1,7 +1,13 @@
 #!/bin/bash
 
-# Install Sway
-sudo pacman -S --needed --noconfirm sway swaybg swayidle swaylock
+# Requires yay
+source "${BASH_SOURCE%/*}/../tools/yay.sh"
+
+# Install SwayFX
+yay -S --noconfirm swayfx-git
+
+# Install Sway tools
+sudo pacman -S --needed --noconfirm swaybg swayidle swaylock
 
 # Modifies the Sway start to load environment variables.
 # Environment variables set in ~/.profile are ignored in Sway.
