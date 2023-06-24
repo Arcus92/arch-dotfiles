@@ -74,6 +74,13 @@ button.urgent {
 
 #workspaces button {
     border: solid 1px #{theme_color_text};
+    margin: 5px 2px;
+}
+
+#workspaces button.visible {
+    background: #{theme_color_background_light};
+    color: #{theme_color_accent};
+    border: solid 1px #{theme_color_accent};
 }
 
 #backlight,

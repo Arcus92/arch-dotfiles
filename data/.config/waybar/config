@@ -17,6 +17,18 @@
                 "deactivated": ""
             }
         },
+        "sway/workspaces": {
+            "persistent_workspaces": {
+                "1": ["DP-3"],
+                "2": ["DP-3"],
+                "3": ["DP-3"],
+                "4": ["DP-3"],
+                "5": ["HDMI-A-1"],
+                "6": ["HDMI-A-1"],
+                "7": ["HDMI-A-1"],
+                "8": ["HDMI-A-1"]
+            }
+        },
         "clock": {
             "interval": 1,
             "format": "{:<b>%Y-%m-%d - %H:%M:%S</b>}",
