@@ -68,7 +68,8 @@ The colors are defined in `./scripts/themes/`. The script that copies copies the
 
 ## Desktop
 
-- [sway](https://github.com/swaywm/sway)
+- [swayfx](https://github.com/WillPower3309/swayfx)
+- [sway](https://github.com/swaywm/sway) *replaced by swayfx*
 - [swaybg](https://github.com/swaywm/swaybg)
 - [swayidle](https://github.com/swaywm/swayidle)
 - [swaylock](https://github.com/swaywm/swaylock)
