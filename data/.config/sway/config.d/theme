@@ -19,9 +19,16 @@ bar {
    swaybar_command waybar
 }
 
+# Enable swayfx features like blur and drop-shadows
 blur enable
-
 shadows enable
 shadow_blur_radius 20
 shadow_color #000000AF
 corner_radius 5
+
+# Also from swayfx, minimizing will move a window to the scratchpad
+scratchpad_minimize enable
+
+# Applying blur to the notification centre
+# layer_effects "swaync-control-center" blur enable;
+
