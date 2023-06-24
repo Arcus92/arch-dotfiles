@@ -14,6 +14,8 @@ for_window [app_id="makemkv"] opacity 0.9
 for_window [app_id="fr.handbrake.ghb"] opacity 0.9
 for_window [app_id="thunderbird"] opacity 0.9
 for_window [class="Enpass"] opacity 0.9
+for_window [title="YouTube Music*"] opacity 0.9
+for_window [class="Signal"] opacity 0.9
 
 # Floating windows
 for_window [app_id="pavucontrol"] floating enable
