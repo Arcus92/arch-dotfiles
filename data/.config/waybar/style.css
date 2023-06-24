@@ -118,7 +118,7 @@ button.urgent {
 }
 
 #custom-file-manager {
-    color: #c8c571;
+    color: #{theme_color_accent};
 }
 
 #custom-firefox {
