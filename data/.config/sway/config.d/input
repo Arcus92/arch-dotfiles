@@ -16,3 +16,6 @@ input type:touchpad {
 
 # Disables auto window selection with mouse
 focus_follows_mouse no
+
+# Disables mouse wrap if a window opens on another output (monitor)
+mouse_warping none
