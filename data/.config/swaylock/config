@@ -1,2 +1,10 @@
 color={theme_color_background_dark}
 image=/usr/share/wallpapers/arcus/{theme_wallpaper_name}
+
+indicator-thickness=10
+
+line-color={theme_color_background_light}
+ring-color={theme_color_background_dark}
+key-hl-color={theme_color_accent}
+separator-color={theme_color_background_dark}
+ring-wrong-color={theme_color_accent_red}
