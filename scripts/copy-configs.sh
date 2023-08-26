@@ -2,6 +2,7 @@
 
 # Load the theme. Create you own color definition
 source "${BASH_SOURCE%/*}/themes/default.sh"
+source "${BASH_SOURCE%/*}/variables/outputs.sh"
 
 copy_file_and_replace_variables() {
     sed_regex=""
@@ -19,6 +20,8 @@ copy_file_and_replace_variables() {
         theme_gtk_name \
         theme_gtk_icons \
         theme_gtk_cursors \
+        output_1 \
+        output_2 \
         )
 
     

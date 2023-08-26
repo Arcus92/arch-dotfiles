@@ -19,14 +19,14 @@
         },
         "sway/workspaces": {
             "persistent_workspaces": {
-                "1": ["DP-3"],
-                "2": ["DP-3"],
-                "3": ["DP-3"],
-                "4": ["DP-3"],
-                "5": ["HDMI-A-1"],
-                "6": ["HDMI-A-1"],
-                "7": ["HDMI-A-1"],
-                "8": ["HDMI-A-1"]
+                "1": ["{output_1}"],
+                "2": ["{output_1}"],
+                "3": ["{output_1}"],
+                "4": ["{output_1}"],
+                "5": ["{output_2}"],
+                "6": ["{output_2}"],
+                "7": ["{output_2}"],
+                "8": ["{output_2}"]
             }
         },
         "clock": {
