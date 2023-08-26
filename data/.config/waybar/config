@@ -182,7 +182,7 @@
         "custom/discord": {
             "format": "",
             "tooltip": false,
-            "on-click": "discord"
+            "on-click": "flatpak run com.discordapp.Discord"
         },
         "custom/steam": {
             "format": "",
