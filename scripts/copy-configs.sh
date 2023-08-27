@@ -67,3 +67,4 @@ gsettings set org.gnome.desktop.interface gtk-theme "${theme_gtk_name}"
 gsettings set org.gnome.desktop.interface icon-theme "${theme_gtk_icons}"
 gsettings set org.gnome.desktop.interface cursor-theme "${theme_gtk_cursors}"
 gsettings set org.gnome.desktop.interface font-name "${theme_font}, 10"
+gsettings set org.cinnamon.desktop.default-applications.terminal exec foot
