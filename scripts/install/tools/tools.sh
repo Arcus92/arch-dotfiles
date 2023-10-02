@@ -30,3 +30,6 @@ sudo pacman -S --needed --noconfirm grim slurp wl-clipboard
 
 # Install wine
 sudo pacman -S --needed --noconfirm wine
+
+# Install usbutils for lsusb
+sudo pacman -S --needed --noconfirm usbutils
