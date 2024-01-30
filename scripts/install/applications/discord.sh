@@ -6,5 +6,8 @@
 # Requires flatpak
 source "${BASH_SOURCE%/*}/../tools/flatpak.sh"
 
+# Install XDG utils to fix open urls
+sudo pacman -S --needed --noconfirm xdg-utils
+
 # Install Discord
 flatpak install -y com.discordapp.Discord

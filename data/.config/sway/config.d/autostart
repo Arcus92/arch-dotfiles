@@ -16,3 +16,10 @@ exec gnome-keyring-daemon --start --components=secrets
 
 # Start polkit client (gui sudo prompt)
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+exec dbus-update-activation-environment --systemd XDG_CURRENT_DESKTOP=sway
+exec dbus-update-activation-environment --systemd DISPLAY MOZ_DBUS_REMOTE
+
+exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+exec hash dbus-update-activation-environment 2>/dev/null && \
+     dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK MOZ_DBUS_REMOTE
