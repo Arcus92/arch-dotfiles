@@ -153,7 +153,9 @@
                 "(\\s*)Fleet.*": "$1Fleet",
                 "(\\s*)CLion.*": "$1CLion",
                 "(\\s*)IntelliJ IDEA Ultimate.*": "$1IDEA",
-                "(\\s*)Android Studio.*": "$1Android Studio"
+                "(\\s*)Android Studio.*": "$1Android Studio",
+                "(\\s*)Code - OSS": "$1Code",
+                "(\\s*)Steam \\(Runtime\\)": "$1Steam"
             }
         },
         "sway/mode": {
