@@ -10,3 +10,4 @@ export MOZ_DBUS_REMOTE=1
 export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$HOME/.dotnet:$HOME/.dotnet/tools
 export MGFXC_WINE_PATH=$HOME/.winemonogame
+export ELECTRON_OZONE_PLATFORM_HINT=wayland
