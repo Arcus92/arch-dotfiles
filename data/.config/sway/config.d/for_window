@@ -7,7 +7,7 @@ for_window [app_id="pavucontrol"] opacity 0.9
 for_window [app_id="nemo"] opacity 0.9
 for_window [class="jetbrains-*"] opacity 0.9
 for_window [app_id="libreoffice-*"] opacity 0.9
-for_window [class="discord"] opacity 0.9
+for_window [app_id="com.discordapp.Discord"] opacity 0.9
 for_window [class="steam"] opacity 0.9
 for_window [class="Ledger Live"] opacity 0.9
 for_window [app_id="makemkv"] opacity 0.9
@@ -22,3 +22,7 @@ for_window [app_id="pavucontrol"] floating enable
 
 # Prevent idle state when any app is in fullscreen mode
 for_window [shell=".*"] inhibit_idle fullscreen
+
+
+assign [class="steam"] workspace 3
+assign [app_id="com.discordapp.Discord"] workspace 2

@@ -7,7 +7,7 @@
         "margin-top": 10,
         "margin-left": 10,
         "margin-right": 10,
-        "modules-left": ["sway/mode", "sway/workspaces", "custom/menu", "custom/terminal", "custom/file-manager", "custom/firefox", "custom/discord", "custom/steam"],
+        "modules-left": ["sway/mode", "sway/workspaces", "custom/menu", "custom/terminal", "custom/file-manager", "custom/firefox"],
         "modules-center": ["custom/close", "custom/minimize", "custom/maximize", "wlr/taskbar"],
         "modules-right": ["custom/notification", "tray", "battery", "disk", "memory", "cpu", "temperature", "pulseaudio", "custom/headset", "backlight", "idle_inhibitor","network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "custom/mail", "custom/weather", "clock", "custom/poweroff"],
         "idle_inhibitor": {
@@ -18,7 +18,18 @@
             }
         },
         "sway/workspaces": {
-            "persistent_workspaces": {
+            "format": "{icon}",
+            "format-icons": {
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "",
+                "7": "",
+                "8": ""
+            },
+            "persistent-workspaces": {
                 "1": ["{output_1}"],
                 "2": ["{output_1}"],
                 "3": ["{output_1}"],

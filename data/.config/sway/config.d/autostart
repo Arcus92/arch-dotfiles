@@ -23,3 +23,8 @@ exec dbus-update-activation-environment --systemd DISPLAY MOZ_DBUS_REMOTE
 exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
 exec hash dbus-update-activation-environment 2>/dev/null && \
      dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK MOZ_DBUS_REMOTE
+
+
+# Autostart apps
+exec flatpak run com.discordapp.Discord
+exec flatpak run com.valvesoftware.Steam
