@@ -19,6 +19,7 @@ for_window [class="Signal"] opacity 0.9
 
 # Floating windows
 for_window [app_id="pavucontrol"] floating enable
+for_window [class="Godot" title="Please Confirm*"] floating enable
 
 # Prevent idle state when any app is in fullscreen mode
 for_window [shell=".*"] inhibit_idle fullscreen
