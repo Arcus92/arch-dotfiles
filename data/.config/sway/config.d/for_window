@@ -1,7 +1,7 @@
 # Put application settings here
 
 # Add transparency to VSCode
-for_window [class="code-oss"] opacity 0.9
+for_window [app_id="code-oss"] opacity 0.9
 for_window [class="Pcmanfm"] opacity 0.9
 for_window [app_id="pavucontrol"] opacity 0.9
 for_window [app_id="nemo"] opacity 0.9
