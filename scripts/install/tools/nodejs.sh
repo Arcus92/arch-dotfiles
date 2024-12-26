@@ -1,4 +1,7 @@
 #!/bin/bash
 
-# Install nodejs and npm
-sudo pacman -S --needed --noconfirm nodejs npm
+# Requires yay
+source "${BASH_SOURCE%/*}/../tools/yay.sh"
+
+# Install node version manager
+yay -S --noconfirm nvm

@@ -11,3 +11,7 @@ export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$HOME/.dotnet:$HOME/.dotnet/tools
 export MGFXC_WINE_PATH=$HOME/.winemonogame
 export ELECTRON_OZONE_PLATFORM_HINT=wayland
+
+
+# Enable node version manager
+source /usr/share/nvm/init-nvm.sh
