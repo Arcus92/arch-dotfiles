@@ -24,6 +24,11 @@ for_window [class="Godot" title="Please Confirm*"] floating enable
 # Prevent idle state when any app is in fullscreen mode
 for_window [shell=".*"] inhibit_idle fullscreen
 
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="bubble"] floating enable
+for_window [window_role="dialog"] floating enable
+for_window [window_type="dialog"] floating enable 
+
 
 assign [class="steam"] workspace 3
 assign [app_id="com.discordapp.Discord"] workspace 2
