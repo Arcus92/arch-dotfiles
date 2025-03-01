@@ -102,6 +102,7 @@ button.urgent {
 #custom-poweroff,
 #custom-menu,
 #custom-firefox,
+#custom-vivaldi,
 #custom-terminal,
 #custom-file-manager,
 #custom-discord,
@@ -123,6 +124,10 @@ button.urgent {
 
 #custom-firefox {
     color: #d65126;
+}
+
+#custom-vivaldi {
+    color: #bf4b4b;
 }
 
 #custom-discord {

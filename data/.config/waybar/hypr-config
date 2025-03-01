@@ -7,7 +7,7 @@
         "margin-top": 10,
         "margin-left": 10,
         "margin-right": 10,
-        "modules-left": ["hyprland/workspaces", "custom/menu", "custom/terminal", "custom/file-manager", "custom/firefox", "custom/discord", "custom/steam"],
+        "modules-left": ["hyprland/workspaces", "custom/menu", "custom/terminal", "custom/file-manager", "custom/vivaldi", "custom/discord", "custom/steam"],
         "modules-center": ["custom/close", "custom/minimize", "custom/maximize", "wlr/taskbar"],
         "modules-right": ["custom/notification", "tray", "battery", "disk", "memory", "cpu", "temperature", "cava", "pulseaudio", "custom/headset", "backlight", "idle_inhibitor","network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "custom/mail", "custom/weather", "clock", "custom/poweroff"],
         "idle_inhibitor": {
@@ -18,6 +18,17 @@
             }
         },
         "hyprland/workspaces": {
+            "format": "{icon}",
+            "format-icons": {
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "",
+                "7": "",
+                "8": ""
+            },
             "persistent-workspaces": {
                 "1": ["{output_1}"],
                 "2": ["{output_1}"],
@@ -165,7 +176,7 @@
             "on-click-middle": "close",
             "on-click-right": "minimize-raise",
             "rewrite": {
-                "(\\s*)Firefox Web Browser": "$1Firefox",
+                "(\\s*)Firefox-Web-Browser": "$1Firefox",
                 "(\\s*)Foot Server": "$1Terminal",
                 "(\\s*)GNU Image Manipulation Program": "$1GIMP",
                 "(\\s*)Rider.*": "$1Rider",
@@ -180,26 +191,26 @@
             }
         },
         "cava": {
-        "framerate": 30,
-        "autosens": 1,
-        "sensitivity": 100,
-        "bars": 14,
-        "lower_cutoff_freq": 50,
-        "higher_cutoff_freq": 10000,
-        "method": "pulse",
-        "source": "auto",
-        "stereo": true,
-        "reverse": false,
-        "bar_delimiter": 0,
-        "monstercat": false,
-        "waves": false,
-        "noise_reduction": 0.77,
-        "input_delay": 2,
-        "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
-        "actions": {
-                   "on-click-right": "mode"
-                   }
-    },
+            "framerate": 30,
+            "autosens": 1,
+            "sensitivity": 100,
+            "bars": 14,
+            "lower_cutoff_freq": 50,
+            "higher_cutoff_freq": 10000,
+            "method": "pulse",
+            "source": "auto",
+            "stereo": true,
+            "reverse": false,
+            "bar_delimiter": 0,
+            "monstercat": false,
+            "waves": false,
+            "noise_reduction": 0.77,
+            "input_delay": 2,
+            "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
+            "actions": {
+                    "on-click-right": "mode"
+                    }
+        },
         "custom/menu": {
             "format": "",
             "tooltip": false,
@@ -214,6 +225,11 @@
             "format": "",
             "tooltip": false,
             "on-click": "firefox"
+        },
+        "custom/vivaldi": {
+            "format": "",
+            "tooltip": false,
+            "on-click": "vivaldi"
         },
         "custom/terminal": {
             "format": "",

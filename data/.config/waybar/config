@@ -7,7 +7,7 @@
         "margin-top": 10,
         "margin-left": 10,
         "margin-right": 10,
-        "modules-left": ["sway/mode", "sway/workspaces", "custom/menu", "custom/terminal", "custom/file-manager", "custom/firefox"],
+        "modules-left": ["sway/mode", "sway/workspaces", "custom/menu", "custom/terminal", "custom/file-manager", "custom/vivaldi"],
         "modules-center": ["custom/close", "custom/minimize", "custom/maximize", "wlr/taskbar"],
         "modules-right": ["custom/notification", "tray", "battery", "disk", "memory", "cpu", "temperature", "pulseaudio", "custom/headset", "backlight", "idle_inhibitor","network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "custom/mail", "custom/weather", "clock", "custom/poweroff"],
         "idle_inhibitor": {
@@ -176,7 +176,7 @@
             "on-click-middle": "close",
             "on-click-right": "minimize-raise",
             "rewrite": {
-                "(\\s*)Firefox Web Browser": "$1Firefox",
+                "(\\s*)Firefox-Web-Browser": "$1Firefox",
                 "(\\s*)Foot Server": "$1Terminal",
                 "(\\s*)GNU Image Manipulation Program": "$1GIMP",
                 "(\\s*)Rider.*": "$1Rider",
@@ -207,6 +207,11 @@
             "format": "",
             "tooltip": false,
             "on-click": "firefox"
+        },
+        "custom/vivaldi": {
+            "format": "",
+            "tooltip": false,
+            "on-click": "vivaldi"
         },
         "custom/terminal": {
             "format": "",
