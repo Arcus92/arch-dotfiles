@@ -110,8 +110,13 @@ button.visible {
 
 
 button.urgent {
-    background-color: #{theme_color_accent_red};
+    color: #{theme_color_accent_red};
 }
+
+#workspaces button.empty {
+    opacity: 0.5;
+}
+
 
 /* Application colors */
 #custom-terminal {
