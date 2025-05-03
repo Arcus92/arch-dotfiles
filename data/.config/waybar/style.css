@@ -174,11 +174,11 @@ button.urgent label {
 }
 
 #cpu {
-    color: #6e7bda;
+    color: #af5370;
     font-weight: bold;
 }
 #disk {
-    color: #a869d7;
+    color: #6e7bda;
     font-weight: bold;
 }
 #memory {
@@ -220,7 +220,7 @@ button.urgent label {
 }
 
 #cava {
-    color: #af5370;
+    color: #a869d7;
     font-size: 60%;
 }
 
