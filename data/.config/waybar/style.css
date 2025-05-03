@@ -27,6 +27,7 @@
 #disk,
 #idle_inhibitor,
 #memory,
+#cava,
 #network.vpn,
 #network.wifi,
 #network.ethernet,
@@ -191,9 +192,12 @@ button.urgent label {
     color: #4d34bb;
     font-weight: bold;
 }
-#pulseaudio,
-#custom-headset {
+#pulseaudio {
     color: #60d8ae;
+    font-weight: bold;
+}
+#custom-headset {
+    color: #46a46f;
     font-weight: bold;
 }
 #custom-headset.headset {
@@ -213,6 +217,11 @@ button.urgent label {
 #clock {
     color: #dadada;
     font-weight: bold;
+}
+
+#cava {
+    color: #af5370;
+    font-size: 60%;
 }
 
 #temperature.critical {

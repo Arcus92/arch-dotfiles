@@ -9,7 +9,7 @@
         "margin-right": 0,
         "modules-left": ["custom/menu", "custom/terminal", "custom/file-manager", "custom/zenbrowser", "custom/discord", "custom/steam", "hyprland/workspaces"],
         "modules-center": ["custom/close", "custom/minimize", "custom/maximize", "wlr/taskbar"],
-        "modules-right": ["tray", "custom/notification", "battery", "cpu", "memory", "disk", "temperature", "cava", "pulseaudio", "custom/headset", "backlight", "idle_inhibitor","network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "custom/mail", "custom/weather", "clock", "custom/poweroff"],
+        "modules-right": ["tray", "custom/notification", "idle_inhibitor", "battery", "cpu", "memory", "disk", "temperature", "pulseaudio", "custom/headset", "cava", "backlight", "network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "clock", "custom/poweroff"],
         "idle_inhibitor": {
             "format": "{icon}",
             "format-icons": {
@@ -193,7 +193,7 @@
         },
         "cava": {
             "framerate": 30,
-            "autosens": 1,
+            "autosens": 0,
             "sensitivity": 100,
             "bars": 14,
             "lower_cutoff_freq": 50,
@@ -205,7 +205,7 @@
             "bar_delimiter": 0,
             "monstercat": false,
             "waves": false,
-            "noise_reduction": 0.77,
+            "noise_reduction": 0.5,
             "input_delay": 2,
             "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
             "actions": {
