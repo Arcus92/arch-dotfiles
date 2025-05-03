@@ -107,9 +107,7 @@ button.visible {
     background-color: #{theme_color_background_light};
 }
 
-
-
-button.urgent {
+button.urgent label {
     color: #{theme_color_accent_red};
 }
 
