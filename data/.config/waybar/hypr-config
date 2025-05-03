@@ -7,7 +7,7 @@
         "margin-top": 10,
         "margin-left": 10,
         "margin-right": 10,
-        "modules-left": ["hyprland/workspaces", "custom/menu", "custom/terminal", "custom/file-manager", "custom/waterfox", "custom/discord", "custom/steam"],
+        "modules-left": ["hyprland/workspaces", "custom/menu", "custom/terminal", "custom/file-manager", "custom/zenbrowser", "custom/discord", "custom/steam"],
         "modules-center": ["custom/close", "custom/minimize", "custom/maximize", "wlr/taskbar"],
         "modules-right": ["custom/notification", "tray", "battery", "disk", "memory", "cpu", "temperature", "cava", "pulseaudio", "custom/headset", "backlight", "idle_inhibitor","network#vpn", "network#wifi", "network#ethernet", "network#disconnected", "custom/mail", "custom/weather", "clock", "custom/poweroff"],
         "idle_inhibitor": {
@@ -235,6 +235,11 @@
             "format": "",
             "tooltip": false,
             "on-click": "waterfox"
+        },
+        "custom/zenbrowser": {
+            "format": "",
+            "tooltip": false,
+            "on-click": "flatpak run app.zen_browser.zen"
         },
         "custom/terminal": {
             "format": "",
