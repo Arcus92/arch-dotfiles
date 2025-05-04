@@ -177,7 +177,7 @@
             "on-click-right": "minimize-raise",
             "rewrite": {
                 "(\\s*)Firefox-Web-Browser": "$1Firefox",
-                "(\\s*)Foot Server": "$1Terminal",
+                "(\\s*)Foot": "$1Terminal",
                 "(\\s*)GNU Image Manipulation Program": "$1GIMP",
                 "(\\s*)Rider.*": "$1Rider",
                 "(\\s*)WebStorm.*": "$1WebStorm",
