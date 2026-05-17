@@ -236,7 +236,7 @@
         "custom/steam": {
             "format": "",
             "tooltip": false,
-            "on-click": "flatpak run com.valvesoftware.Steam"
+            "on-click": "steam"
         },
         "custom/notification": {
             "tooltip": false,
