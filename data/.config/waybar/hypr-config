@@ -289,17 +289,17 @@
         "custom/close": {
             "format": "",
             "tooltip": false,
-            "on-click": "hyprctl dispatch killactive"
+            "on-click": "hyprctl dispatch 'hl.dsp.window.close()'"
         }, 
         "custom/minimize": {
             "format": "",
             "tooltip": false,
-            "on-click": "hyprctl dispatch movetoworkspacesilent special:magic"
+            "on-click": "hyprctl dispatch 'hl.dsp.window.move({ workspace = \"special:magic\", follow = false })'"
         }, 
         "custom/maximize": {
             "format": "",
             "tooltip": false,
-            "on-click": "hyprctl dispatch togglespecialworkspace magic"
+            "on-click": "hyprctl dispatch 'hl.dsp.workspace.toggle_special(\"magic\")'"
         }
     }
 ]
