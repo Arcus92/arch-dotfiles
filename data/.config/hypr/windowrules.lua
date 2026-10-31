@@ -15,8 +15,6 @@ hl.on("window.open", function(w)
     local ff_windows = hl.get_windows({ class = "app.zen_browser.zen" })
     if #ff_windows <= 1 then return end
 
-    hl.dispatch(hl.dsp.window.float({ action = "set", window = w }))
-
     local sub
     sub = hl.on("window.title", function(tw)
         if tw.address ~= w.address then return end
@@ -28,11 +26,10 @@ hl.on("window.open", function(w)
         sub:remove()
 
         if tw.title:match("^Extension:") or tw.title:match("^Erweiterung:") then
+            hl.dispatch(hl.dsp.window.float({ action = "set", window = w }))
             hl.dispatch(hl.dsp.window.resize({ x = 800, y = 600, window = tw }))
             hl.dispatch(hl.dsp.window.center({ window = tw }))
             hl.dispatch(hl.dsp.focus({ window = tw }))
-        else
-            hl.dispatch(hl.dsp.window.float({ action = "unset", window = tw }))
         end
     end)
 end)
